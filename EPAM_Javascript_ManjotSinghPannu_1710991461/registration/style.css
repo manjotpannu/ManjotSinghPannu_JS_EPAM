@@ -1,0 +1,37 @@
+h1{
+    font-size:300%;
+    text-align: center;
+	color:white;
+}
+body {
+    background:black;
+}
+form {
+    display: inline-block;
+    border: 2px solid black;
+}
+.setting {
+    background:rgb(255, 255, 255);
+    font-size: 130%;
+    padding: 15px;
+    height: 30px;
+    width: 520px;
+}
+.setting1 {
+    background:rgb(255, 255, 255);
+    font-size: 180%;
+    padding: 10px;
+    height: 180px;
+    width: 530px;
+}
+.setting2 {
+    font-size: 60%;
+    border: 1px solid black;
+    height: 45px;
+    width: 190px;
+    background: black;
+	color: white;
+}
+.alg{
+    text-align: center;
+}

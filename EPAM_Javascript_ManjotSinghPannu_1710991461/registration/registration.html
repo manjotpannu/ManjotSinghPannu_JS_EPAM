@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+
+    <link rel="stylesheet" type="text/css" href="style.css">   <!-- External linking of CSS -->
+    <title>Registration Form</title>
+    <script src="reg.js"></script>   <!-- External linking of JavaScript -->
+
+</head>
+
+<body>
+<div class="alg">
+    <h1>Registration Form</h1>
+    <form>
+        <div class="setting">
+            <label >First name :</label>
+            <input  type="text" id="lb1" name="fname" placeholder="Enter your first name" onblur="validatefname();" ><span id="msg1"></span><br><br>
+        </div>
+        <div class="setting">
+            <label >Last Name :</label>
+            <input type="text" id="lb3" name="lname" placeholder="Enter your last name" onblur="validatelname();" ><span id="msg"></span><br><br>
+        </div>
+        <div class="setting">
+            <label >Date of birth :</label>
+            <input type="date" id="lb4" name="dob"><br><br>
+        </div>
+        <div class="setting">
+            <label >Email Id :</label>
+            <input type="email" id="lb5" name="mail" placeholder="eg:-abc@gmail.com" onblur="validateemailid();"><span id="msg2"></span><br><br>
+        </div>
+        <div class="setting">
+            <label >Phone number :</label>
+            <input type="number" id="lb6" name="num" placeholder="xxxxxxxxxx" onblur="validatenumber();"><span id="msg3"></span><br><br>
+        </div>
+        <div class="setting">
+            <label>Gender :</label>
+            <input type="radio" id="lb7" name="gender" value="male">Male
+            <input type="radio" id="lb7" name="gender" value="female">Female
+            <input type="radio" id="lb7" name="gender" value="other">Other<br><br>
+        </div>
+        <div class="setting" style="padding-bottom: 10%">
+            <button type="button" onclick="login()" class="setting2">View Login Page</button>
+        </div>
+    </form>
+</div>
+
+</body>
+
+</html>
